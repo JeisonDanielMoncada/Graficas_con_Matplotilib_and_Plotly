@@ -48,7 +48,7 @@ bin2 = 1+ np.log2(len(matematicas))
 # aunque al calcular el bins con la raiz cuadrada de la materia nos da 9 con 10 nos da la grafica solicitada
 plt.hist(matematicas, bins=10)
 plt.title('Distribucion de las calificaciones de Matematicas')
-plt.xlabel('Calificacionde Matematicas')
+plt.xlabel('Calificacion de Matematicas')
 plt.ylabel('Frecuencia')
 
 plt.show()

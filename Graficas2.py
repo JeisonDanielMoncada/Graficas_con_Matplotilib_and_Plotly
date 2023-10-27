@@ -31,7 +31,7 @@ nota_Lenguaje = (datos[datos['materia']=="Lenguaje"]["nota"]).values
 
 # Grafica de cola de raton donde dividimos por notas de cada materia
 plt.boxplot([nota_Matemáticas,nota_Historia,nota_Ciencias,nota_Lenguaje])
-
+plt.style.use('fivethirtyeight')
 plt.title("Distribución de Notas")
 plt.xticks([1, 2, 3, 4], ['Matemáticas', 'Historia', 'Ciencias','Lenguaje'])
 plt.ylabel("Notas")
